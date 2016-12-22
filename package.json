@@ -1,6 +1,9 @@
 {
   "name": "totobot",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "engines": {
+    "node": "6.x"
+  },
   "main": "index.js",
   "repository": "git@github.com:poepanda/totobot.git",
   "author": "Panda Poe <me@pandapoe.com>",
@@ -14,11 +17,11 @@
     "babel-cli": "^6.18.0",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "github": "^7.1.0"
-  },
-  "devDependencies": {
+    "github": "^7.1.0",
     "babel-plugin-transform-object-rest-spread": "^6.20.2",
     "babel-preset-latest": "^6.16.0",
     "debug": "^2.5.1"
+  },
+  "devDependencies": {
   }
 }
